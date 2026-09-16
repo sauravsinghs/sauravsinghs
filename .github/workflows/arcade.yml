@@ -18,13 +18,12 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate contribution graphs
-        uses: Platane/snk@v3
+      - name: generate Pac-Man contribution graphs
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/pacman-contribution-graph.svg
-            dist/pacman-contribution-graph-dark.svg?palette=github-dark
+          games: pacman
+          hide_month_labels: false
 
       - name: publish contribution graphs
         uses: crazy-max/ghaction-github-pages@v3.1.0
