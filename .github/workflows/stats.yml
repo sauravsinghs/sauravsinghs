@@ -22,8 +22,8 @@ jobs:
         shell: bash
         run: |
           mkdir -p dist
-          curl --fail --location --retry 3 --output dist/stats.svg "https://github-stats-extended.vercel.app/api?username=${{ github.repository_owner }}&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true"
-          curl --fail --location --retry 3 --output dist/languages.svg "https://github-stats-extended.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&size_weight=0.5&count_weight=0.5&theme=dracula&hide_border=true"
+          curl --fail --location --retry 3 --output dist/stats.svg "https://github-stats-extended.vercel.app/api?username=${{ github.repository_owner }}&hide=stars,contribs,issues&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true"
+          curl --fail --location --retry 3 --output dist/languages.svg "https://github-stats-extended.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&size_weight=0.5&count_weight=0.5&exclude_repo=GEOTA,AI-Project,mira,Solar-System,PRODIGY_WD_01,PRODIGY_WD_02,PRODIGY_WD_04,PROJECT_WD_03,blog_Project&theme=dracula&hide_border=true"
 
       - name: publish stats cards
         uses: crazy-max/ghaction-github-pages@v3.1.0

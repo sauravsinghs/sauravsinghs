@@ -1,10 +1,57 @@
-<h1 data-importer="text" align="center">Hey, Saurav here 👋</h1>
+<h1 align="center">Hey, Saurav here 👋</h1>
 
-<p align="center">📍 Chennai | 💼 Open to backend / full-stack roles</p>
+Backend-focused full-stack developer at IIIT Sri City, building scalable APIs, distributed systems, and cloud-native applications.
 
-###
+📍 Chennai, India | 💼 Open to backend / full-stack roles<br>
+🎓 B.Tech CSE, IIIT Sri City (2023–2027) | CGPA 8.33/10
 
-<p data-importer="text" align="left">Backend-focused full-stack developer building scalable,<br>performance-driven web systems.<br><br>FEATURED PROJECTS<br><br>secure-n-banked<br>Go backend for users, accounts, and money transfers — gRPC + HTTP<br>gateway, PostgreSQL transactions, PASETO-based auth, Redis<br>background workers, Docker, Kubernetes/EKS deploy.<br><br>storefront + storefront_client<br>Django REST API for an online store — product catalog, carts,<br>orders, JWT authentication, image uploads, Redis caching, Celery<br>background tasks. Paired with a lightweight Parcel/Axios frontend.<br><br>The-Wild-Oasis + The-Wild-Oasis-Website<br>Hotel management system for boutique hospitality businesses —<br>internal staff dashboard (React, Supabase, React Query) paired<br>with a guest-facing booking site (Next.js, NextAuth, Supabase,<br>Tailwind CSS).<br><br>────────────────────────────────────────<br><br>REACH ME</p>
+---
+
+## Featured Projects
+
+### secure-n-banked (Jun 2025 – Aug 2025)
+
+Go backend for users, accounts, and money transfers.
+
+- Hardened auth with PASETO/JWT + refresh tokens — auth p95 under 60ms at 1,000+ concurrent sessions.
+- ACID-compliant PostgreSQL transactions — zero invariance violations across 100k simulated transfers.
+- Unified gRPC + grpc-gateway API, cutting integration time ~50%.
+- Redis/Asynq background workers handling 10k+ emails/day at 99.9% success, isolated from API latency.
+- CI/CD via GitHub Actions (OIDC) to AWS EKS — multi-stage Docker, zero-downtime rollouts, sub-10-minute build-to-deploy, 2+ production releases/week.
+
+**Tech:** Go, Gin, PostgreSQL, gRPC, Redis (Asynq), Docker, AWS EKS, GitHub Actions, OIDC
+
+### Storefront — E-commerce REST API & Client (Jan 2026 – Mar 2026)
+
+Stateless Django REST API for 1k+ products.
+
+- Sustained 120–150 concurrent users at p50 ~250–300ms.
+- Redis caching and query optimization cut DB hits ~45% and latency ~30%.
+- Client with real-time upload progress and server-side image validation eliminated oversize-image errors.
+- Deployed on Heroku with Celery background jobs and automated migrations.
+
+**Tech:** Django, MySQL, Redis, Celery, JWT, Heroku
+
+### The Wild Oasis — Cabin Booking Platform (May 2025 – Nov 2025)
+
+Full booking platform with staff dashboard and guest-facing site.
+
+- Next.js server components and remote image optimization trimmed payloads ~40–60%, p75 FCP under 1.5s.
+- Resilient booking engine with server-side availability checks — p95 booking creation under 300ms.
+- Google SSO with automatic guest provisioning and protected private routes.
+
+**Tech:** Next.js, Supabase (Auth/DB/Storage), Google SSO
+
+---
+
+## Experience
+
+### Web Development Intern — Prodigy Infotech Pvt. Ltd. (Oct 2024)
+
+- Built and enhanced responsive web applications, focused on performance optimization and cross-browser compatibility.
+- Collaborated in production workflows using Git and structured code reviews.
+
+---
 
 ###
 
@@ -44,7 +91,8 @@
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=sauravsinghs&hide=stars,contribs&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-stats-extended.vercel.app/api?username=sauravsinghs&hide=stars,contribs,issues&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sauravsinghs&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&size_weight=0.5&count_weight=0.5&exclude_repo=GEOTA,AI-Project,mira,Solar-System,PRODIGY_WD_01,PRODIGY_WD_02,PRODIGY_WD_04,PROJECT_WD_03,blog_Project&theme=dracula&hide_border=true" height="150" alt="languages graph"  />
 </div>
 
 ###
