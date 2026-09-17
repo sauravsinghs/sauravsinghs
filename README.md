@@ -54,7 +54,6 @@ Full booking platform with staff dashboard and guest-facing site.
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
   </a>
 </div>
-
 ###
 
 <div data-importer="techs" align="center">
@@ -78,20 +77,3 @@ Full booking platform with staff dashboard and guest-facing site.
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="60" alt="kubernetes logo"  />
 </div>
-
-###
-
-<div data-importer="stats" align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=sauravsinghs&hide=stars,contribs,issues&hide_rank=true&hide_title=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true" height="150" alt="stats graph"  />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sauravsinghs&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&size_weight=0.5&count_weight=0.5&exclude_repo=GEOTA,AI-Project,mira,Solar-System,PRODIGY_WD_01,PRODIGY_WD_02,PRODIGY_WD_04,PROJECT_WD_03,blog_Project&theme=dracula&hide_border=true" height="150" alt="languages graph"  />
-</div>
-
-###
-
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sauravsinghs/sauravsinghs/pacman-output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sauravsinghs/sauravsinghs/pacman-output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/sauravsinghs/sauravsinghs/pacman-output/pacman-contribution-graph.svg">
-</picture>
-
-###
