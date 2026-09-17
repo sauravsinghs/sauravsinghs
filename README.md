@@ -1,6 +1,6 @@
 <h1 align="center">Hey, Saurav here 👋</h1>
 
-Backend-focused full-stack developer at IIIT Sri City, building scalable APIs, distributed systems, and cloud-native applications.
+Backend-focused full-stack developer at IIIT Sri City, building APIs, web applications, and cloud-based systems.
 
 📍 Chennai, India | 💼 Open to backend / full-stack roles<br>
 🎓 B.Tech CSE, IIIT Sri City (2023–2027) | CGPA 8.33/10
@@ -9,19 +9,19 @@ Backend-focused full-stack developer at IIIT Sri City, building scalable APIs, d
 
 ## Featured Projects
 
-### secure-n-banked (Jun 2025 – Aug 2025)
+### [Secure-N-Banked](https://github.com/sauravsinghs/secure-n-banked)
 
 Go backend for users, accounts, and money transfers.
 
-- Hardened auth with PASETO/JWT + refresh tokens — auth p95 under 60ms at 1,000+ concurrent sessions.
+- Hardened auth with PASETO/JWT and refresh tokens.
 - ACID-compliant PostgreSQL transactions — zero invariance violations across 100k simulated transfers.
-- Unified gRPC + grpc-gateway API, cutting integration time ~50%.
+- Unified gRPC + grpc-gateway API.
 - Redis/Asynq background workers handling 10k+ emails/day at 99.9% success, isolated from API latency.
-- CI/CD via GitHub Actions (OIDC) to AWS EKS — multi-stage Docker, zero-downtime rollouts, sub-10-minute build-to-deploy, 2+ production releases/week.
+- GitHub Actions + OIDC deployment to AWS EKS with multi-stage Docker builds and zero-downtime rollouts.
 
 **Tech:** Go, Gin, PostgreSQL, gRPC, Redis (Asynq), Docker, AWS EKS, GitHub Actions, OIDC
 
-### Storefront — E-commerce REST API & Client (Jan 2026 – Mar 2026)
+### [Storefront](https://github.com/sauravsinghs/storefront)
 
 Stateless Django REST API for 1k+ products.
 
@@ -32,7 +32,7 @@ Stateless Django REST API for 1k+ products.
 
 **Tech:** Django, MySQL, Redis, Celery, JWT, Heroku
 
-### The Wild Oasis — Cabin Booking Platform (May 2025 – Nov 2025)
+### [The Wild Oasis](https://github.com/sauravsinghs/The-Wild-Oasis)
 
 Full booking platform with staff dashboard and guest-facing site.
 
@@ -41,15 +41,6 @@ Full booking platform with staff dashboard and guest-facing site.
 - Google SSO with automatic guest provisioning and protected private routes.
 
 **Tech:** Next.js, Supabase (Auth/DB/Storage), Google SSO
-
----
-
-## Experience
-
-### Web Development Intern — Prodigy Infotech Pvt. Ltd. (Oct 2024)
-
-- Built and enhanced responsive web applications, focused on performance optimization and cross-browser compatibility.
-- Collaborated in production workflows using Git and structured code reviews.
 
 ---
 
@@ -91,7 +82,7 @@ Full booking platform with staff dashboard and guest-facing site.
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=sauravsinghs&hide=stars,contribs,issues&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-stats-extended.vercel.app/api?username=sauravsinghs&hide=stars,contribs,issues&hide_rank=true&hide_title=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dracula&locale=en&hide_border=true" height="150" alt="stats graph"  />
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sauravsinghs&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&size_weight=0.5&count_weight=0.5&exclude_repo=GEOTA,AI-Project,mira,Solar-System,PRODIGY_WD_01,PRODIGY_WD_02,PRODIGY_WD_04,PROJECT_WD_03,blog_Project&theme=dracula&hide_border=true" height="150" alt="languages graph"  />
 </div>
 
