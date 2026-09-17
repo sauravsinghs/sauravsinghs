@@ -5,6 +5,15 @@ Backend-focused full-stack developer at IIIT Sri City, building APIs, web applic
 📍 Chennai, India | 💼 Open to backend / full-stack roles<br>
 🎓 B.Tech CSE, IIIT Sri City (2023–2027) | CGPA 8.33/10
 
+<div data-importer="socials" align="center">
+  <a href="https://www.linkedin.com/in/sauravsingh-dev" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
+  <a href="mailto:contactforsauravsingh@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+  </a>
+</div>
+
 ---
 
 ## Featured Projects
@@ -43,18 +52,6 @@ Full booking platform with staff dashboard and guest-facing site.
 **Tech:** Next.js, Supabase (Auth/DB/Storage), Google SSO
 
 ---
-
-###
-
-<div data-importer="socials" align="center">
-  <a href="https://www.linkedin.com/in/sauravsingh-dev" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="mailto:contactforsauravsingh@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  </a>
-</div>
-###
 
 <div data-importer="techs" align="center">
   <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
